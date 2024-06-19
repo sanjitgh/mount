@@ -1,0 +1,124 @@
+@media (max-width:1399px) {
+    .hero_header h1 {
+        font-size: 125px;
+    }
+    .hero_header h5 {
+        font-size: 22px;
+    }
+    .hero_header{
+        margin-top: 30px;
+    }
+    header::before {
+        min-height: 72%;
+    }
+    .offer_single_box h3 {
+        padding: 0;
+    }
+    .f_single_box h1 {
+        font-size: 35px;
+    }
+}
+/* 1399 e */
+@media (max-width:1024px) {
+    
+}
+/* 1024 e */
+@media (max-width:991px) {
+    .hero_content p {
+        text-align: center;
+    }
+    .btn_booking {
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .z_ind {
+        z-index: 1;
+    }
+    .nav-item {
+        border-bottom:1px solid #ff690f82;
+        margin-bottom: 10px;
+    }
+    .nav-link {
+        padding-left: 15px;
+    }
+    .nav-item:last-child {
+        border-bottom: none;
+    }
+    .navbar-nav {
+        background: #ff690f12;
+    }
+    .nav-link {
+        margin: 0;
+    }
+    .f_single_box {
+        position: inherit;
+        text-align: center;
+    }
+    .contact_address ul {
+        padding: revert;
+    }
+    .social_link ul {
+        padding: revert;
+        margin-bottom: 60px;
+    }
+}
+/* 991 e */
+@media (max-width:767px) {
+    .hero_header h1 {
+        font-size: 62px;
+    }
+    .hero_header h5 {
+        font-size: 16px;
+    }
+    .offer_single_box {
+        margin-bottom: 50px;
+    }
+    .crew_single_box {
+        margin-bottom: 35px;
+    }
+}
+/* 767 e */
+@media (max-width:575px) {
+    .main_header h1 {
+        font-size: 35px;
+    }
+    .offer_single_box h3 {
+        padding: 0 25px;
+    }
+    .gallery img {
+        margin-bottom: 10px;
+    }
+    .crew h1 {
+        font-size: 35px;
+    }
+    .snow_board_left_content {
+        text-align: center;
+    }
+    .snow_board_left_content h1 {
+        font-size: 35px;
+    }
+    .counter_single_box h3 {
+        font-size: 40px;
+    }
+    .counter_single_box p {
+        font-size: 15px;
+    }
+    .testimonials h1 {
+        font-size: 35px;
+    }
+    .contact_address ul li {
+        text-align: start;
+    }
+    .social_link ul {
+        justify-content: center;
+        padding: 0;
+    }
+    .social_link ul li {
+        margin: 0 20px;
+    }
+    #myBtn {
+        width: 60px;
+    }
+}
+/* 575 e */
